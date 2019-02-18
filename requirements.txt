@@ -1,0 +1,5 @@
+coverage==4.5.2
+nose2==0.8.0
+numpy==1.16.1
+opencv-python==4.0.0.21
+six==1.12.0
