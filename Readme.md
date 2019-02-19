@@ -10,7 +10,7 @@ Generally, Image Quality Analysis(IQA) is divided broadly into two types,
 
 **Reference Based Sharpness**  | **No-Reference Sharpness** 
 :-------------------------:|:-------------------------:
-<img src="./examples/images/reference-based-image-eval.jpg" width="400" height="300" />  | <img src="./examples/images/no-ref image.png" width="400" height="300" />
+<img src="./examples/images/reference-based-image-eval.jpg" width="400" height="250" />  | <img src="./examples/images/no-ref image.png" width="400" height="250" />
 
 The main difference between these approaches is (1) uses a high quality image to evaluate the quality, while (2) is purely based on image's inherent features(pixels)
 
@@ -21,7 +21,7 @@ Most of the researchers earlier has focused on estimating the quality of natural
 
 **Motion Blur**  | **Out of Focus** 
 :------------------------- | :-------------------------
-<img src="./examples/images/motion-blur.jpg" width="400" height="300" />  | <img src="./examples/images/out-of-focus.jpg" width="400" height="300" />
+<img src="./examples/images/motion-blur.jpg" width="300" height="225" />  | <img src="./examples/images/out-of-focus.jpg" width="300" height="225" />
 
 
 Authors(Kumar J, et al.) present a very intuitive and simple measure which works on grayscale image, is comparable to state-of-art solution and takes far less time to compute as it doesn't require expensive FFT, canny-edge detection or SVD. It is effective in detecting motion-blur, de-focused images or inherent properties of imaging system.The paper claims to work better than any other perceptually-based, no-reference sharpness measures on [LIVE Dataset](http://live.ece.utexas.edu/research/quality/subjective.htm). 
