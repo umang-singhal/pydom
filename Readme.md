@@ -39,7 +39,8 @@ import numpy as np
 iqa = DOM()
 
 # using image path
-iqa.get_sharpness('path/to/image')
+score = iqa.get_sharpness('path/to/image')
+print("Sharpness:", score)
 
 # using numpy array
 img = np.random.randint(50, size=(10,10,3), dtype=np.uint8)
@@ -47,7 +48,7 @@ score = iqa.get_sharpness(img)
 print("Sharpness:", score)
 ```
 
-**Note: $ 0 \le Sharpness Score \le \sqrt{2} $**
+**Note:  0 $\le$ Sharpness Score $\le$ $\sqrt{2}$**
 
 ## Tests
 ` nose2 -v`
