@@ -48,7 +48,7 @@ score = iqa.get_sharpness(img)
 print("Sharpness:", score)
 ```
 
-**Note:  0 $\le$ Sharpness Score $\le$ $\sqrt{2}$**
+**Note: 0 <= Sharpness Score <= sqrt(2)**
 
 ## Tests
 ` nose2 -v`
