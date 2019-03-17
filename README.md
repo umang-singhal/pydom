@@ -28,7 +28,7 @@ Authors(Kumar J, et al.) present a very intuitive and simple measure which works
 
 
 ## Installation
-> git clone https://github.com/umang-singhal/pydom.git
+> pip3 install git+https://github.com/umang-singhal/pydom.git
 
 ## Usage
 ```python
